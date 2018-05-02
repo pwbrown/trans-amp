@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/pwbrown/trans-amp#readme",
   "dependencies": {
-    "htmlparser": "^1.7.7",
+    "htmlparser2": "^3.9.2",
     "image-size": "^0.6.2",
     "immutable": "^3.8.2"
   }
