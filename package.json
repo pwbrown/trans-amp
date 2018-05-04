@@ -1,6 +1,6 @@
 {
   "name": "trans-amp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Translate raw HTML into compatible AMP HTML (Accelerated Mobile Pages)",
   "main": "lib/index.js",
   "directories": {
