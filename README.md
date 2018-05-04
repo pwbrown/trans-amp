@@ -65,7 +65,9 @@ Some behavior can be customized via a configuration object upon creating a new i
 var amp = new TransAmp({
     dimensionsCacheKey: function(uri){return uri},
     stylePrependString: "transamp",
-    removeChildren: true
+    removeChildren: true,
+    keepChildrenFor: [],
+    removeChildrenFor: []
 })
 ```
 
@@ -77,3 +79,9 @@ var amp = new TransAmp({
 
 ### removeChildren: Boolean
 * Any time an html element is deemed invalid and must be removed entirely, this value dictates whether any and all of its child elements will also be removed.
+
+### keepChildrenFor: Array
+* Provides a more granular level of control for which tags should override the default and always keep their children. Provide an array of tag names.
+
+### removeChildrenFor: Array
+* Provides a more granular level of control from which tags should always remove their children. Provide and array of tag names.
